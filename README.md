@@ -73,7 +73,7 @@ Para asegurarte de que la instalación fue correcta, ejecuta el siguiente comand
 ```bash
 python -c "import PySide6; print(PySide6.__version__)"
 ```
-Si todo está bien, verás la versión de PySide6 en la terminal 
+Si todo está bien, verás la versión de PySide6 en la terminal.
 
 ### 📝 4️⃣ Crear y Ejecutar la Aplicación "Hola Mundo"
 Ahora que tenemos todo configurado, vamos a crear una aplicación sencilla con **PySide6**.
@@ -100,7 +100,7 @@ app.exec()
 ### Ejecutar aplicación PySide6
 
 Podemos ejecutar desde: 
-* VisualStudio 
+* VisualStudio.
 * Desde la terminal. 
 
 ### Desde la terminal
@@ -111,7 +111,6 @@ Podemos ejecutar desde:
 
 ```bash
 #Comandos para activar los entornos
-
 source mi_entorno/bin/activate  # Linux
 mi_entorno\Scripts\activate  # Windows
 ```
@@ -128,10 +127,17 @@ python main.py
 
 2️⃣ Selecciona main.py en el Explorador de Archivos.
 
-3️⃣ Abre la terminal en VS Code (Ctrl + `) y activa el entorno virtual
+3️⃣ Abre la terminal en VS Code (Ctrl + `) y activa el entorno virtual.
 
 ```bash
+#Comandos para activar los entornos
 source mi_entorno/bin/activate  # Linux
 mi_entorno\Scripts\activate  # Windows
 ```
 
+4️⃣ Ejecuta la aplicación directamente en VS Code:
+
+* Presiona F5 (si tienes configurado Python en el depurador).
+* O ejecuta el siguiente comando en la terminal:
+
+Si todo está bien, verás la ventana con el mensaje "¡Hola Mundo con PySide6!.
