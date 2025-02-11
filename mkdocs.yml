@@ -1,5 +1,24 @@
 site_name: Documentación del Hola Mundo PySide6
 docs_dir: docs_src
 nav:
-  - Inicio : README.md
+  - Inicio: README.md
+  - Descargar en PDF: PDF.md 
+
 theme: readthedocs
+
+plugins:
+  - search
+  - pdf-export
+  - with-pdf:
+      author: "Ferran Cunyat Pellicer"
+      copyright: "CC0 1.0 Universal"
+      output_path: "pdf/doc_holamundo_pyside6.pdf"
+
+cover: true
+back_cover: false
+cover_title: "Holamundo! con PySide6"
+cover_subtitle: "Desarrollo de interfaces - 2º DAM - Ed. McGrawHill"
+
+toc_title: "Índice"
+toc_level: 2
+ordered_chapter_level: 2

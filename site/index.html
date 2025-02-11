@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+
+<html class="writer-html5" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="None" name="description"/>
+<link href="img/favicon.ico" rel="shortcut icon"/>
+<title>Documentación del Hola Mundo PySide6</title>
+<link href="css/theme.css" rel="stylesheet"/>
+<link href="css/theme_extra.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" rel="stylesheet"/>
+<script>
+        // Current page data
+        var mkdocs_page_name = "Inicio";
+        var mkdocs_page_input_path = "README.md";
+        var mkdocs_page_url = null;
+      </script>
+<!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<link href="README.pdf" rel="alternate" title="PDF Export" type="application/pdf"/><link href="pdf/doc_holamundo_pyside6.pdf" rel="alternate" title="PDF" type="application/pdf"/></head>
+<body class="wy-body-for-nav" role="document">
+<div class="wy-grid-for-nav">
+<nav class="wy-nav-side stickynav" data-toggle="wy-nav-shift">
+<div class="wy-side-scroll">
+<div class="wy-side-nav-search">
+<a class="icon icon-home" href="."> Documentación del Hola Mundo PySide6
+        </a><div role="search">
+<form action="./search.html" class="wy-form" id="rtd-search-form" method="get">
+<input aria-label="Search docs" name="q" placeholder="Search docs" title="Type search term here" type="text"/>
+</form>
+</div>
+</div>
+<div aria-label="Navigation menu" class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation">
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal current" href="#">Inicio</a>
+<ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="#requisitos">📋 Requisitos</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#instalacion-y-configuracion">🚀 Instalación y Configuración</a>
+<ul>
+<li class="toctree-l3"><a class="reference internal" href="#2-crear-y-activar-un-entorno-virtual">🌍 2️⃣ Crear y Activar un Entorno Virtual</a>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#windows-cmd-o-powershell">🟢 Windows (CMD o PowerShell)</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#windows-ubuntudebian">🟢 Windows (Ubuntu/Debian)</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#3-instalar-pyside6">🖥️ 3️⃣ Instalar PySide6</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#4-crear-y-ejecutar-la-aplicacion-hola-mundo">📝 4️⃣ Crear y Ejecutar la Aplicación "Hola Mundo"</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#ejecutar-aplicacion-pyside6">Ejecutar aplicación PySide6</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#desde-la-terminal">Desde la terminal</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#desde-visual-visual-studio-code">Desde Visual Visual Studio Code</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<section class="wy-nav-content-wrap" data-toggle="wy-nav-shift">
+<nav aria-label="Mobile navigation menu" class="wy-nav-top" role="navigation">
+<i class="fa fa-bars" data-toggle="wy-nav-top"></i>
+<a href=".">Documentación del Hola Mundo PySide6</a>
+</nav>
+<div class="wy-nav-content">
+<div class="rst-content"><div aria-label="breadcrumbs navigation" role="navigation">
+<ul class="wy-breadcrumbs">
+<li><a aria-label="Docs" class="icon icon-home" href="."></a></li>
+<li class="breadcrumb-item active">Inicio</li>
+<li class="wy-breadcrumbs-aside">
+</li>
+</ul>
+<hr/>
+</div>
+<div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
+<div class="section" itemprop="articleBody">
+<h1 id="hola-mundo-con-pyside6">Hola Mundo con PySide6</h1>
+<p><img alt="Python" src="https://img.shields.io/badge/Python-3.8%2B-blue"/>
+<img alt="PySide6" src="https://img.shields.io/badge/PySide6-6.5.0-green"/></p>
+<p>Una aplicación simple de "Hola Mundo" creada con PySide6 para demostrar la creación de interfaces gráficas en Python.</p>
+<h2 id="requisitos">📋 Requisitos</h2>
+<ul>
+<li>Git (<a href="https://git-scm.com/">Descargar</a>)</li>
+<li>Python 3.8 o superior</li>
+<li>pip (Gestor de paquetes de Python)</li>
+</ul>
+<h2 id="instalacion-y-configuracion">🚀 Instalación y Configuración</h2>
+<h3 id="2-crear-y-activar-un-entorno-virtual">🌍 2️⃣ Crear y Activar un Entorno Virtual</h3>
+<p>Para evitar conflictos con otras dependencias, es recomendable usar un entorno virtual.</p>
+<h4 id="windows-cmd-o-powershell">🟢 Windows (CMD o PowerShell)</h4>
+<ol>
+<li>Abre la terminal y navega al directorio donde quieres crear el entorno virtual.</li>
+<li>Ejecuta el siguiente comando:</li>
+</ol>
+<pre><code class="language-powershell">python -m venv mi_entorno
+</code></pre>
+<ol>
+<li>Activa el entorno virtual con:</li>
+</ol>
+<pre><code>mi_entorno\Scripts\activate
+</code></pre>
+<p>Si la activación es exitosa, en la terminal veras un prefijo así: </p>
+<pre><code>(mi_entorno) C:\Users\TuUsuario&gt;
+</code></pre>
+<h4 id="windows-ubuntudebian">🟢 Windows (Ubuntu/Debian)</h4>
+<ol>
+<li>Abre la terminal y navega al directorio donde quieres crear el entorno virtual.</li>
+<li>Ejecuta el siguiente comando:</li>
+</ol>
+<pre><code class="language-bash">python3 -m venv mi_entorno
+</code></pre>
+<ol>
+<li>Activa el entorno virtual con: </li>
+</ol>
+<pre><code class="language-bash">source mi_entorno/bin/activate
+</code></pre>
+<p>Si la activación es exitosa verás algo así : </p>
+<pre><code class="language-bash">(mi_entorno) usuario@PC:~$
+</code></pre>
+<p>Para salir del entorno virtual, usa : </p>
+<pre><code class="language-bash">deactivate
+</code></pre>
+<h3 id="3-instalar-pyside6">🖥️ 3️⃣ Instalar PySide6</h3>
+<p>Con el entorno virtual activado, instala <strong>PySide6</strong> ejecutando:</p>
+<pre><code class="language-bash">pip install PySide6
+</code></pre>
+<p>Para asegurarte de que la instalación fue correcta, ejecuta el siguiente comando:</p>
+<pre><code class="language-bash">python -c "import PySide6; print(PySide6.__version__)"
+</code></pre>
+<p>Si todo está bien, verás la versión de PySide6 en la terminal.</p>
+<h3 id="4-crear-y-ejecutar-la-aplicacion-hola-mundo">📝 4️⃣ Crear y Ejecutar la Aplicación "Hola Mundo"</h3>
+<p>Ahora que tenemos todo configurado, vamos a crear una aplicación sencilla con <strong>PySide6</strong>.</p>
+<p>1️⃣ <strong>Crea un archivo llamado</strong> <code>main.py</code> en la carpeta del proyecto.<br/>
+2️⃣ <strong>Copia y pega el siguiente código en <code>main.py</code>:</strong></p>
+<pre><code class="language-python">import sys
+from PySide6.QtWidgets import QApplication, QLabel
+
+# Crear la aplicación
+app = QApplication(sys.argv)
+
+# Crear una etiqueta con el mensaje "¡Hola Mundo con PySide6!"
+label = QLabel("¡Hola Mundo con PySide6!")
+label.show()
+
+# Ejecutar la aplicación
+app.exec()
+
+</code></pre>
+<h3 id="ejecutar-aplicacion-pyside6">Ejecutar aplicación PySide6</h3>
+<p>Podemos ejecutar desde: 
+* VisualStudio.
+* Desde la terminal. </p>
+<h3 id="desde-la-terminal">Desde la terminal</h3>
+<p>1️⃣ <strong>Abre la terminal</strong> en el directorio del proyecto. </p>
+<p>2️⃣ <strong>Activa el entorno virtual</strong>:</p>
+<pre><code class="language-bash">#Comandos para activar los entornos
+source mi_entorno/bin/activate  # Linux
+mi_entorno\Scripts\activate  # Windows
+</code></pre>
+<p>Ejecutamos la aplicacion con: </p>
+<pre><code class="language-bash">python main.py
+</code></pre>
+<h3 id="desde-visual-visual-studio-code">Desde Visual Visual Studio Code</h3>
+<p>1️⃣ Abre Visual Studio Code en el directorio del proyecto.</p>
+<p>2️⃣ Selecciona main.py en el Explorador de Archivos.</p>
+<p>3️⃣ Abre la terminal en VS Code (Ctrl + `) y activa el entorno virtual.</p>
+<pre><code class="language-bash">#Comandos para activar los entornos
+source mi_entorno/bin/activate  # Linux
+mi_entorno\Scripts\activate  # Windows
+</code></pre>
+<p>4️⃣ Ejecuta la aplicación directamente en VS Code:</p>
+<ul>
+<li>Presiona F5 (si tienes configurado Python en el depurador).</li>
+<li>O ejecuta el siguiente comando en la terminal:</li>
+</ul>
+<p>Si todo está bien, verás la ventana con el mensaje "¡Hola Mundo con PySide6!.</p>
+</div>
+</div><footer>
+<hr/>
+<div role="contentinfo">
+<!-- Copyright etc -->
+</div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+</div>
+</div>
+</section>
+</div>
+<div aria-label="Versions" class="rst-versions" role="note">
+<span class="rst-current-version" data-toggle="rst-current-version">
+</span>
+</div>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script>var base_url = ".";</script>
+<script src="js/theme_extra.js"></script>
+<script src="js/theme.js"></script>
+<script src="search/main.js"></script>
+<script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+</body>
+</html>
+<!--
+MkDocs version : 1.6.1
+Build Date UTC : 2025-02-11 19:10:23.447886+00:00
+-->
